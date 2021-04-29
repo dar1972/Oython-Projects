@@ -1,0 +1,5 @@
+"""
+Author: Dhruv Rajpurohit
+"""
+
+1. Pivot is a parameter used in the function. It is not necessary the pivot to be the middle term although pivot makes the program efficient when it is the middle term. If pivot is not the middle term and is the first or the second term or anything other than middle term then program will be relatively slow.2. The complexity of quick select depends on the pivot. If the pivot is not of the right then the complexity becomes O(n^2). Although the right pivot will result in giving the complexity of nlog(n). 3. File tested: test_dataset_large.txt	File: store_location.py	elapsed time:  0.0384371280670166	File: select_median.py	elapsed time:  0.006947755813598633File tested: test500Keven.txt	File: store_location.py	elapsed time:  2.349275827407837		File: select_median.py	elapsed time:  0.6600110530853271File tested: test500Kodd.txt	File: store_location.py	elapsed time:  2.568290948867798 	File: select_median.py	elapsed time:  0.208115816116333	
